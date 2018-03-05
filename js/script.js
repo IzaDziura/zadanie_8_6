@@ -8,8 +8,8 @@ console.log (value);
 
 if (value < 0) {
 	console.log ('Wynik jest ujemny');
+ } else if (value = 0) {
+ 	console.log('Wynik jest równy zero');
  } else {
  	console.log('Wynik jest dodatni');
  }
-
-value = 0 ? console.log('Wynik jest równy zero') : console.log('Wynik jest różny od zera');
